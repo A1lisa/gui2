@@ -38,9 +38,9 @@ namespace gui2.Properties {
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("0")]
-        public int txtGrades {
+        public string txtGrades {
             get {
-                return ((int)(this["txtGrades"]));
+                return ((string)(this["txtGrades"]));
             }
             set {
                 this["txtGrades"] = value;

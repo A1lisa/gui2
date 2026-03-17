@@ -66,7 +66,6 @@
             label2.Size = new Size(120, 20);
             label2.TabIndex = 3;
             label2.Text = "Введите оценки";
-            label2.Click += label2_Click;
             // 
             // button1
             // 
@@ -76,6 +75,7 @@
             button1.TabIndex = 4;
             button1.Text = "Рассчитать";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // Form1
             // 
@@ -89,7 +89,6 @@
             Controls.Add(txtCount);
             Name = "Form1";
             Text = "Form1";
-            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }
